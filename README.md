@@ -61,9 +61,9 @@ Next, go to the cloned folder and modify an existing file or add a new file.
 It's clearly your decision how you want to add new files in the cloned folder. You can either copy files from other folders and paste it there or use `touch` in `terminal` to add a new file.
 
 ```{r eval=FALSE, include=TRUE}
-# add a markdown document named as results
+# add a markdown document named as Example1
 $ touch Example1.Rmd
-# add another markdown document named as plots
+# add another markdown document named as Example2
 $ touch Example2.Rmd
 # check if those documents are added successfully
 $ ls
@@ -106,8 +106,7 @@ After `git commit` all changes will be committed into local repo on the computer
 $ git push
 ```
 
-If you don't get any message to type your *username* and *password*, congratulations! Your files are in the remote repo on GitHub.com.
-
+If you are not prompted for your username and password, your credentials may be cached on your computer. Congratulations! Your files are in the remote repo on GitHub.com.
 
 ## Fixing authentication error
 
